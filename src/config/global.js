@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Despliegue de la aplicación nativa',
     descripcionCurso:
-      'En este componente formativo se abordan los conceptos clave para el despliegue de las aplicaciones móviles, en donde encontrarán temáticas relacionadas con las tiendas de aplicaciones, así como sus características, cuentas, y creación de APK.',
+      'En este componente formativo se abordan los conceptos clave para el despliegue de las aplicaciones móviles, en donde encontrarán temáticas relacionadas con las tiendas de aplicaciones, así como sus características, cuentas, y creación de APK. <span class="palabra-portada">Móviles</span>',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },

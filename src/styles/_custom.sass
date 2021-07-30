@@ -1,18 +1,29 @@
-.banner-principal__img:before
-  content: 'Móviles'
-  color: $color-sistema-texto
+.palabra-portada
+  overflow: hidden
+  white-space: nowrap
   position: absolute
-  top: 33.5%
-  bottom: 62%
+  top: 34%
   left: 73%
-  right: 47%
-  border-left: 1px solid $color-sistema-texto
-  //animation: escribir 5s steps(30) infinite alternate
-@keyframes escribir 
-  from 
-    width: 100% 
-  to 
-    width: 0%
+  width: 57px
+  border-right: 2px solid rgba(255, 202, 40, 0.9)
+  animation: animacionIntro 3s steps(7, end), animacionBar 1s step-end infinite
+@keyframes animacionIntro 
+  0% 
+    width: 0
+  100% 
+    width: 57px
+@keyframes animacionBar 
+  0%,  100% 
+    border-color: rgba(241, 59, 59, 0)
+  50% 
+    border-color: rgba(255, 202, 40, 0.9)
+@media (max-width: $bp-max-md)
+  .palabra-portada
+    display: none !important
+@media (min-width: $bp-min-xxl)
+  .palabra-portada
+    top: 33.3%
+    left: 69%
 
 @media (min-width: $bp-min-sm)
   .banner-principal__img 

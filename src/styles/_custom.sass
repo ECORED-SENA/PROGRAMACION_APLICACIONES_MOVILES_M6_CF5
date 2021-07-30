@@ -1,0 +1,85 @@
+.banner-principal__img:before
+  content: 'Móviles'
+  color: $color-sistema-texto
+  position: absolute
+  top: 33.5%
+  bottom: 62%
+  left: 73%
+  right: 47%
+  border-left: 1px solid $color-sistema-texto
+  //animation: escribir 5s steps(30) infinite alternate
+@keyframes escribir 
+  from 
+    width: 100% 
+  to 
+    width: 0%
+
+@media (min-width: $bp-min-sm)
+  .banner-principal__img 
+    padding-bottom: 1rem !important
+.titulo-principal__numero
+  background-color: $color-acento-botones
+.titulo-principal__numero span
+  color: $color-sistema-texto  
+
+.cajon.color-primario
+  background-color: #A5E7F0
+.cajon-color-primario  
+  background-color: #4DD0E1 
+.cajon-color-secundario
+  background-color: #039BE5  
+.tarjeta-secundario
+  background-color: $color-secundario
+.tarjeta-acento-botones-suave
+  background-color: #FFF6DB
+.tarjeta-amarillo-border
+  background-color: #FFEDB7
+  border-bottom: 5px solid #039BE5
+.border-amarillo
+  border-bottom: 3px solid #FFCA28
+
+figcaption
+  font-weight: 500
+  &.suave-amarillo
+    background-color: #FFEDB7  
+
+.tabs-c__tab--active span
+  font-weight: 800
+
+.lista-ul--color.color-secuendario li > i:first-of-type 
+  color: #039BE5
+
+.linea-tiempo-c .horizontal-scroll
+  align-items: flex-start !important
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  border: 2px solid #FFCA28
+  background-color: #FFFFFF 
+.linea-tiempo-c__header__item__line-container:after, .linea-tiempo-c__header__item__line-container:before   
+  background-color: #FFCA28
+.linea-tiempo-c__header__item__dot
+  min-width: 35px
+  max-width: 35px
+  min-height: 35px
+  max-height: 35px
+  border: 3px solid #FFCA28
+  background-color: #FFFFFF
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot
+  background-color: #26A69A  
+.linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__year
+  font-weight: 900
+  color: #FFF
+.linea-tiempo-c__header__item__year
+  position: absolute
+  z-index: 99999
+  top: 7px
+  font-size: 1.2em
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__dot
+  background-color: #26A69A
+
+
+.slyder__btn
+  background-color: #26A69A
+.slyder__btn:hover
+  background-color: #FFCA28
+.slyder__btn:hover i 
+  color: $color-sistema-texto 

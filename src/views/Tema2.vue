@@ -13,18 +13,28 @@
 
     .row.mb-4
       .col-lg-7.mb-4(data-aos="fade-right")
-        p Se posiciona como la tienda de aplicaciones con más descargas por año a nivel mundial, además de ser la que tiene mayor cantidad de nuevos desarrolladores, y la segunda con más beneficios. En el 2012 fue lanzada con el nombre de Google Play Store. 
-        p Los recursos de Google Play también se encuentran disponibles en el sitio web de Google Play 
+        p Se posiciona como la tienda de aplicaciones con más descargas por año a nivel mundial, además de ser la que tiene mayor cantidad de nuevos desarrolladores, y la segunda con más beneficios. En el 2012 fue lanzada con el nombre de 
+          italic Google Play Store. 
+        p Los recursos de 
+          italic Google Play 
+          | también se encuentran disponibles en el sitio web de 
+          italic Google Play 
           a(:href="('https://play.google.com/store?hl=es_CO&gl=US')" target="_blank")
             strong.etiqueta (https://play.google.com/store?hl=es_CO&gl=US).
-        p Entre las aplicaciones más descargadas en la historia de Google Play se encuentran: WhatsApp, Instagram, Snapchat y en el último trimestre de 2020: TikTok.
+        p Entre las aplicaciones más descargadas en la historia de 
+          italic Google Play 
+          | se encuentran: 
+          italic WhatsApp, Instagram, Snapchat 
+          | y en el último trimestre de 2020: 
+          italic TikTok.
       .col-lg-5.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema2-img1.jpg", alt="Imagen decorativa") 
     
     
     h3(data-aos="fade-right") Características
 
-    p.mb-4(data-aos="fade") A continuación, se indican algunas características principales de Google Play.
+    p.mb-4(data-aos="fade") A continuación, se indican algunas características principales de 
+      italic Google Play.
 
     .row(data-aos="fade-down")
       .col-lg-4.container
@@ -37,7 +47,9 @@
           .face.face2.p-3
             .content.text-center
               h4 Apertura
-              p Una de sus características principales es que Google Play está abierto a cualquier desarrollador, esto quiere decir que su código fuente se pone a disposición para uso o modificación que otro desarrollador considere conveniente.
+              p Una de sus características principales es que 
+                italic Google Play 
+                | está abierto a cualquier desarrollador, esto quiere decir que su código fuente se pone a disposición para uso o modificación que otro desarrollador considere conveniente.
       .col-lg-4.container
         .cards(@mouseover="mostrarIndicador = false", onclick="")
           .indicador--click(v-if="mostrarIndicador")
@@ -49,7 +61,11 @@
           .face.face2.p-3
             .content.text-center
               h4 Sencillez
-              p La forma para hacer parte de Google Play es muy sencilla solo hay que realizar el registro, subir la app y realizar la publicación.
+              p La forma para hacer parte de 
+                italic Google Play 
+                | es muy sencilla solo hay que realizar el registro, subir la 
+                italic app 
+                | y realizar la publicación.
       .col-lg-4.container
         .cards
           .face.face1.p-3
@@ -60,7 +76,9 @@
           .face.face2.p-3
             .content.text-center
               h4 Comunidad
-              p Los usuarios de Android pueden comentar y darles valor a las aplicaciones.
+              p Los usuarios de 
+                italic Android 
+                | pueden comentar y darles valor a las aplicaciones.
         
     .row(data-aos="fade-down")
       .col-lg-4.container
@@ -120,18 +138,18 @@ export default {
 
 <style lang="sass" scoped>
 .cards .icon
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transition: 0.7s;
-  z-index: 1;
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  transition: 0.7s
+  z-index: 1
 .container .cards .icon img
   position: absolute
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: 0.7s;
+  top: 40%
+  left: 50%
+  transform: translate(-50%, -50%)
+  transition: 0.7s
 .container .cards .icon h4
   position: absolute
   top: 75%
@@ -139,7 +157,6 @@ export default {
   transform: translate(-50%, -50%)
   transition: 0.7s
   width: 90%
-
 
 .container .cards .face
   width: 100%
@@ -157,7 +174,7 @@ export default {
 
 .container .cards:hover .face.face1
   background: #FFF6DB;
-  transform: translateY(0px);
+  transform: translateY(0px)
 
 .container .cards .face.face1 .content
   opacity: 1
@@ -170,7 +187,7 @@ export default {
   max-width: 80px
 
 .container .cards .face.face2
-  position: relative;
+  position: relative
   background: #4DD0E1
   display: flex
   justify-content: center
@@ -179,7 +196,13 @@ export default {
   box-sizing: border-box
   transform: translateY(-100px)
 
-
 .container .cards:hover .face.face2
   transform: translateY(0)
+
+@media (max-width: $bp-max-lg)
+  .container .cards .face.face2 p
+    font-size: 0.8em
+@media (max-width: $bp-max-md)
+  .container .cards .face.face2 p
+    font-size: 1em
 </style>

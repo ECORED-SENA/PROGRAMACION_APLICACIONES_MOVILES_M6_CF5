@@ -14,7 +14,9 @@
 
     p(data-aos="fade") Una de las características de 
       strong las aplicaciones móviles es que su distribución se realiza por medio de tiendas, y existen en el mercado una gran variedad de ellas. 
-      | En el contenido de este módulo se describirán las tiendas más utilizadas, así como las características de cada una de ellas, específicamente la tienda de Play Store, porque, a nivel mundial, es la que presenta mayor número de descargas por parte de los usuarios.
+      | En el contenido de este módulo se describirán las tiendas más utilizadas, así como las características de cada una de ellas, específicamente la tienda de 
+      italic Play Store, 
+      | porque, a nivel mundial, es la que presenta mayor número de descargas por parte de los usuarios.
 
  
 

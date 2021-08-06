@@ -18,11 +18,18 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema3-img1.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Para publicar aplicaciones en Google Play, lo primero que se debe hacer es un registro en la consola para desarrolladores, la inscripción tiene un valor de 25 dólares, que es un pago único de por vida y es necesario tener una tarjeta de crédito para poder realizarlo. El objetivo de esta cuota consiste en incentivar la presencia de productos de mayor calidad en Google Play (es decir, menos productos con spam).
+            p.mb-0 Para publicar aplicaciones en 
+              italic Google Play, 
+              | lo primero que se debe hacer es un registro en la consola para desarrolladores, la inscripción tiene un valor de 25 dólares, que es un pago único de por vida y es necesario tener una tarjeta de crédito para poder realizarlo. El objetivo de esta cuota consiste en incentivar la presencia de productos de mayor calidad en 
+              italic Google Play 
+              | (es decir, menos productos con 
+              italic spam).
 
     h3(data-aos="fade-right") Creación de cuenta
 
-    p.mb-4(data-aos="fade") Para la creación de la cuenta se debe ingresar a la consola de la Google Play y seguir los pasos que se mencionan a continuación.
+    p.mb-4(data-aos="fade") Para la creación de la cuenta se debe ingresar a la consola de la 
+      italic Google Play 
+      | y seguir los pasos que se mencionan a continuación.
 
     .tarjeta.tarjeta-acento-botones-suave.p-4.mb-5
       LineaTiempoC.color-acento-contenido(data-aos="fade-down")
@@ -33,13 +40,17 @@
                 i.fas.fa-play
                 p 
                   strong Ingresar a la página de registro: 
-                  | Google Play Console y dar clic en Play Console.
+                  | 
+                  italic Google Play Console 
+                  | y dar clic 
+                  italic en Play Console.
           .col-md-1
           .col-md-6
             .titulo-sexto.color-secundario
               p.mb-0
                 strong Figura 4.  
-                | Ingreso a la página de Google Play Console
+                | Ingreso a la página de 
+                italic Google Play Console
             figure
               img.mb-1(src='@/assets/curso/tema3-paso-1.jpg', alt='Ingreso a la página de Google Play Console')
 
@@ -49,14 +60,20 @@
               li 
                 i.fas.fa-play
                 p 
-                  strong Al dar clic en la Play Console, 
-                  | se solicitará iniciar sesión en Google, se debe ingresar con la cuenta de Gmail con la que se quiere quede el registro.
+                  strong Al dar clic en la 
+                  italic-strong Play Console, 
+                  | se solicitará iniciar sesión en 
+                  italic Google, 
+                  | se debe ingresar con la cuenta de 
+                  italic Gmail 
+                  | con la que se quiere quede el registro.
           .col-md-1
           .col-md-6
             .titulo-sexto.color-secundario
               p.mb-0
                 strong Figura 5.  
-                | Inicio sesión cuenta Gmail
+                | Inicio sesión cuenta 
+                italic Gmail
             figure
               img.mb-1(src='@/assets/curso/tema3-paso-2.jpg', alt='Inicio sesión cuenta Gmail')
 
@@ -69,7 +86,9 @@
                   strong Después del inicio de sesión, 
                   | aparecerá un formulario en donde se le solicita los datos del desarrollador.
             .tarjeta-amarillo-border.py-2.px-3
-              p Es importante tener en cuenta que todos los datos que están marcados con asterisco (*) son obligatorios, y se debe seleccionar el acuerdo para desarrolladores y los términos de servicios de Google Play Console, luego dar clic en crear cuenta y pagar.      
+              p Es importante tener en cuenta que todos los datos que están marcados con asterisco (*) son obligatorios, y se debe seleccionar el acuerdo para desarrolladores y los términos de servicios de 
+                italic Google Play Console, 
+                | luego dar clic en crear cuenta y pagar.      
           .col-md-1
           .col-md-6
             .titulo-sexto.color-secundario
@@ -92,7 +111,8 @@
             .titulo-sexto.color-secundario
               p.mb-0
                 strong Figura 7.  
-                | Registro pago Google Play
+                | Registro pago 
+                italic Google Play
             figure
               img.mb-1(src='@/assets/curso/tema3-paso-4.jpg', alt='Registro pago Google Play')             
 
@@ -103,7 +123,9 @@
                 i.fas.fa-play
                 p 
                   strong Posterior al pago, 
-                  | se muestra la pantalla de la consola donde se inicia el proceso de subida de la aplicación, ahora, solo se debe tener lista el APK y las imágenes e iconos que solicita el proceso de cargue de la aplicación.
+                  | se muestra la pantalla de la consola donde se inicia el proceso de subida de la aplicación, ahora, solo se debe tener lista el 
+                  italic APK 
+                  | y las imágenes e iconos que solicita el proceso de cargue de la aplicación.
             .tarjeta-amarillo-border.py-2.px-3
               p La consola tiene en su lado lateral izquierdo (marcado en rojo), el menú de administración de las aplicaciones y al lado derecho el botón de creación de la aplicación.
           .col-md-1
@@ -111,7 +133,8 @@
             .titulo-sexto.color-secundario
               p.mb-0
                 strong Figura 8.  
-                | Google Play Console
+                | 
+                italic Google Play Console
             figure
               img.mb-1(src='@/assets/curso/tema3-paso-5.jpg', alt='Google Play Console') 
 

@@ -54,6 +54,7 @@
             figure
               img.mb-1(src='@/assets/curso/tema3-paso-1.jpg', alt='Ingreso a la página de Google Play Console')
 
+
         .row.justify-content-center(titulo="2")
           .col-md-3.mb-4.mb-md-0
             ul.lista-ul--color.color-secuendario
@@ -136,7 +137,8 @@
                 | 
                 italic Google Play Console
             figure
-              img.mb-1(src='@/assets/curso/tema3-paso-5.jpg', alt='Google Play Console') 
+              img.mb-1(src='@/assets/curso/tema3-paso-5.jpg', alt='Google Play Console')
+ 
 
 </template>
 
@@ -148,7 +150,7 @@ export default {
     AcordionB,
   },
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {

@@ -6,10 +6,10 @@
     .titulo-principal
       .titulo-principal__numero
         span 3
-      h1 Subida de aplicación Play Store
+      h1 Subida aplicación Play Store
 
     figure.mb-5(data-aos="fade")
-      img(src="@/assets/curso/banner-tema3.jpg", alt="Subida de aplicación Play Store")
+      img(src="@/assets/curso/banner-tema3.jpg", alt="Subida aplicación Play Store")
 
     .row.justify-content-center.mb-5
       .col-lg-10
